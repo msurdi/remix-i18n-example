@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome to my website!",
+  "time": "Current server time is: ${time}",
+  "english": "English",
+  "spanish": "Spanish",
+  "change-language": "You can change your language in the ${url}",
+  "settings-page": "settings page",
+  "back": "back",
+  "hello": "Hello from ${where}"
+}
