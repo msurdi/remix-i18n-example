@@ -7,7 +7,7 @@ import { translator } from "../lib/i18n.js";
  * @returns
  */
 const useTranslation = () => {
-  const { messages, currentLanguage } = useRouteLoaderData("routes/_app");
+  const { messages, currentLanguage } = useRouteLoaderData("routes/_i18n");
 
   const t = useCallback(translator(messages), [messages]);
 
