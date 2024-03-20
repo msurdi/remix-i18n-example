@@ -3,7 +3,7 @@ import { getLanguage, locales, translate } from "../lib/i18n.js";
 
 /**
  * Any content returned from this loader will be rendered only on first (SSR'ed) page load
- * and never when performing client navigations, which is what we want for translation.
+ * and never when performing client navigations, which is what we want for translations.
  */
 export const shouldRevalidate = false;
 
