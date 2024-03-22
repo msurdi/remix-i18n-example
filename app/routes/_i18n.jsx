@@ -22,8 +22,8 @@ export const loader = async () => {
   });
 };
 
-function AppLayout() {
+function I18nLayout() {
   return <Outlet />;
 }
 
-export default AppLayout;
+export default I18nLayout;
