@@ -10,7 +10,7 @@ export const action = async ({ request }) => {
   return redirect("/");
 };
 
-function IndexPage() {
+function SettingsPage() {
   const { t } = useTranslation();
 
   return (
@@ -32,4 +32,4 @@ function IndexPage() {
   );
 }
 
-export default IndexPage;
+export default SettingsPage;
